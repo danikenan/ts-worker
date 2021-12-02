@@ -1,5 +1,5 @@
 const { workerData } = require('worker_threads');
 
-require('ts-node').register();
+// require('ts-node').register();
 
 require(workerData.path);
